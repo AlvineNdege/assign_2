@@ -5,12 +5,7 @@ CREATE TABLE users(
 	is_active boolean default true
 );
 
-
-select 
-from users
-
 insert into users(name,email)
 values('Alice','alice@gmail.com');
 
-select
-from users
+select * from users
