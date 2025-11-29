@@ -6,14 +6,10 @@ CREATE TABLE courses(
 	is_open boolean default true
 );
 
-
-select
-from courses
-
 insert into courses(title,description)
 values('python','introduction to python');
 
-select
-from courses
+select * from courses
+
 
 	
